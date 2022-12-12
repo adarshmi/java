@@ -1,4 +1,4 @@
-package Lecture2.Scope.Assignment;
+package Lecture2.Assignment;
 
 import java.util.Scanner;
 
