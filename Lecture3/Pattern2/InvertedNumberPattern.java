@@ -10,6 +10,7 @@ public class InvertedNumberPattern {
          * Read input as specified in the question.
          * Print output as specified in the question.
          */
+       
         Scanner scr = new Scanner(System.in);
         int n = scr.nextInt();
         int i = 1;
