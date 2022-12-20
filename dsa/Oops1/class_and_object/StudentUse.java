@@ -10,6 +10,7 @@ public class StudentUse {
         s1.name="Roy";
         s1.rollNumber = 123;
         s1.Address = "Noida";
+        s1.setRollnumber(124);
     
 
 
@@ -18,10 +19,16 @@ public class StudentUse {
         s2.rollNumber = 12;
         s2.Address = " Greater Noida";
 
+
         
 
         System.out.println(s1);
         System.out.println(s2.name);
+
+
+        /// Accsess Modifier
+
+        System.out.println(s1.getRollnumber());
 
     }
 }
