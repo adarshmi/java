@@ -3,6 +3,16 @@ import java.util.*;
 
 public class ArrayUsetoUser {
 
+    public static int largestInArray(int Input[]){
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i<Input.length;i++){
+            if(Input[i]>max){
+                max = Input[i];
+            }
+        }
+        return max;
+    }
+
     public static int [] takeInput(){
         Scanner s = new Scanner(System.in);
         int size = s.nextInt();
@@ -26,6 +36,8 @@ public class ArrayUsetoUser {
         
         int arr[]=takeInput();
         print (arr);
+        int largest = largestInArray(arr);
+        System.out.println(" Largest " + largest);
 
         
 
